@@ -11,4 +11,9 @@ module.exports = {
   moduleNameMapper: {
     "\\.(scss)$": "<rootDir>/mocks/style-mock.js",
   },
+
+  // These are the items listed in the author's comment
+  // https://github.com/facebook/jest/issues/9430#issuecomment-616232029
+  transform: {},
+  testEnvironment: "jest-environment-jsdom-sixteen",
 };
