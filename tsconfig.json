@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist/",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "./dist/",
+    "strictNullChecks": true,
+    "target": "es2015"
+  },
+  "exclude": ["./src/**/*.test.ts", "./src/**/*.test.tsx"],
+  "extends": "@snowcoders/renovate-config",
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
